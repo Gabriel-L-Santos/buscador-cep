@@ -79,6 +79,34 @@
     font-weight: bold;
 }
 
+.footer footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    color:#FFF;
+}
+
+.button-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.buttonSearchFooter {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    margin: 5px;
+    transition: transform 0.5s;
+}
+
+.buttonSearchFooter:hover {
+    transform: scale(1.2);
+}
+
 @media (max-width: 620px){
     .title {
         font-size: 50px;

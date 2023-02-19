@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import { FiSearch } from 'react-icons/fi';
+import { BsLinkedin } from 'react-icons/bs';
+import { BsGithub } from 'react-icons/bs';
 import './style.css';
 
 import api from './services/api';
@@ -59,6 +61,23 @@ function App() {
 
         </main>
       )}
+
+      <div className="footer">
+        <footer>
+          <p>Autor: Gabriel Leme dos Santos - 2023</p>
+        </footer>
+      </div> 
+
+      <div className="button-footer">  
+        <button className="buttonSearchFooter" onClick={handleSearch}>
+          <BsLinkedin size={25} color="#FFF"/>
+        </button>
+
+        <button className="buttonSearchFooter" onClick={handleSearch}>
+          <BsGithub size={25} color="#FFF"/>
+        </button>
+      </div>     
+      
       
     </div>
   );
