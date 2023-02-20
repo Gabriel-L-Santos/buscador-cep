@@ -64,20 +64,19 @@ function App() {
 
       <div className="footer">
         <footer>
-          <p>Autor: Gabriel Leme dos Santos - 2023</p>
+          <p>Gabriel Leme dos Santos - 2023</p>
         </footer>
       </div> 
 
       <div className="button-footer">  
-        <button className="buttonSearchFooter" onClick={handleSearch}>
-          <BsLinkedin size={25} color="#FFF"/>
+        <button className="buttonSearchFooter">
+        <a href="https://www.linkedin.com/in/gabriel-leme-dos-santos-7b220b197/"><BsLinkedin size={25} color="#FFF"/></a>
         </button>
 
-        <button className="buttonSearchFooter" onClick={handleSearch}>
-          <BsGithub size={25} color="#FFF"/>
+        <button className="buttonSearchFooter">
+        <a href="https://github.com/Gabriel-L-Santos"><BsGithub size={25} color="#FFF"/></a>
         </button>
       </div>     
-      
       
     </div>
   );
