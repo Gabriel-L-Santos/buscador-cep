@@ -10,8 +10,9 @@
 
 .title{
     font-size: 85px;
-    color: #FFF;
+    color: #4657f3;
     animation: flipTitle 2s;
+    text-shadow: 3px 3px 3px rgb(0 0 0);
 }
 
 @keyframes flipTitle {
@@ -37,13 +38,14 @@
     background-color: transparent;
     border: 0;
     font-size: 20px;
-    color: #FFF;
+    text-shadow: 3px 3px 3px rgb(0 0 0);
+    color: #46a5f3;
     outline: none;
     margin-right: 8px;
 }
 
 .containerInput input::placeholder {
-    color: #F1F1F1;
+    color: #f1f1f168;
 }
 
 .buttonSearch {
@@ -65,9 +67,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #FFF;
+    background-color: #f1f1f129;
+    color: #46a5f3;
+    text-shadow: 3px 3px 3px rgb(0 0 0);
     width: 500px;
     border-radius: 8px;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
 }
 
 .main h2 {
@@ -86,7 +91,8 @@
     flex-direction: column;
     align-items: center;
     margin: 10px;
-    color:#FFF;
+    text-shadow: 3px 3px 3px rgb(0 0 0);
+    color:#46a5f3;
 }
 
 .button-footer {

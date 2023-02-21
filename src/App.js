@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { FiSearch } from 'react-icons/fi';
+import { FaSearchLocation } from 'react-icons/fa';
 import { BsLinkedin } from 'react-icons/bs';
 import { BsGithub } from 'react-icons/bs';
 import './style.css';
@@ -45,7 +45,7 @@ function App() {
         />
 
         <button className="buttonSearch" onClick={handleSearch}>
-          <FiSearch size={25} color="#FFF"/>
+          <FaSearchLocation size={25} color="#46a5f3"/>
         </button>
       </div>
 
@@ -70,11 +70,11 @@ function App() {
 
       <div className="button-footer">  
         <button className="buttonSearchFooter">
-        <a href="https://www.linkedin.com/in/gabriel-leme-dos-santos-7b220b197/"><BsLinkedin size={25} color="#FFF"/></a>
+        <a href="https://www.linkedin.com/in/gabriel-leme-dos-santos-7b220b197/"><BsLinkedin size={25} color="#46a5f3"/></a>
         </button>
 
         <button className="buttonSearchFooter">
-        <a href="https://github.com/Gabriel-L-Santos"><BsGithub size={25} color="#FFF"/></a>
+        <a href="https://github.com/Gabriel-L-Santos"><BsGithub size={25} color="#46a5f3"/></a>
         </button>
       </div>     
       
