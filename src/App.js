@@ -39,7 +39,7 @@ function App() {
       <div className="containerInput">
         <input 
         type="text"
-        placeholder="Digite seu CEP (apenas nº)..."
+        placeholder="Digite seu CEP (apenas nº)"
         value={input}
         onChange={(e) => setInput(e.target.value) }
         />
